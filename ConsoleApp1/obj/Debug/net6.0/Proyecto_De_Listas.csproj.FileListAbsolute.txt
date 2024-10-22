@@ -1,0 +1,15 @@
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Proyecto_De_Listas.exe
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Proyecto_De_Listas.deps.json
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Proyecto_De_Listas.runtimeconfig.json
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Proyecto_De_Listas.dll
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Proyecto_De_Listas.pdb
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.csproj.AssemblyReference.cache
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.AssemblyInfoInputs.cache
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.AssemblyInfo.cs
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.csproj.CoreCompileInputs.cache
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.dll
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\Proyecto_De_Listas.dll
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.pdb
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Proyecto_De_Listas.genruntimeconfig.cache
+C:\Users\cisco01\Downloads\M\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\Proyecto_De_Listas.dll

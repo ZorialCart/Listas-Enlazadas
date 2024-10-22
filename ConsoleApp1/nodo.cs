@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class nodo
+    {
+        private int valor;
+        private nodo sig;
+
+        public nodo(int valor)
+        {
+            this.valor = valor;
+            sig = null;
+
+        }
+
+        public int Valor { get => valor; set => valor = value; }
+        internal nodo Sig { get => sig; set => sig = value; }
+    }
+    
+}
