@@ -126,10 +126,10 @@ namespace ConsoleApp1
 
                         break;
                     case 7:
-                        Console.WriteLine("7.- Imprimir Lista\n");
                         Console.Clear();
+                        Console.WriteLine("7.- Imprimir Lista\n");
                         Console.WriteLine("Los valores del nodo son:");
-                        mylist.Print();
+                        DrawScreen(mylist);
                         Console.ReadKey();
                         break;
                     case 8:
@@ -141,6 +141,64 @@ namespace ConsoleApp1
                 }
                 
             } while (opc != 8);
+        }
+        public static void DrawScreen(lista lista)
+        {
+            string line = "";
+            string value = "";
+
+            int draw = lista.Count();
+            if (draw == 0)
+            {
+                string[] print = new string[]
+                {
+                     $"┌-------------------┬┐  ",
+                     $"| chanchito tiste :C||-┐",
+                     $"└-------------------┴┘-┴-"
+                };
+
+                foreach (string str in print)
+                {
+                    Console.WriteLine(str);
+                }
+                return;
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < draw; j++)
+                {
+                    value = lista.Find(j).ToString();
+                    line = line.PadRight(value.Length);
+                    line.Replace(" ", "-");
+
+
+                    string[] printEnd = new string[]
+                    {
+                            $"┌{line}┬┐     ",
+                            $"|{value}||-┐  ",
+                            $"└{line}┴┘ -┴- "
+                    };
+
+                    string[] dcontinue = new string[]
+                    {
+                            $"┌{line}┬┐     ",
+                            $"|{value}||==> ",
+                            $"└{line}┴┘     "
+                    };
+
+                    if (draw - 1 == j)
+                    {
+                        Console.Write(printEnd[i]);
+                    }
+                    else
+                    {
+                        Console.Write(dcontinue[i]);
+                    }
+                    line = "";
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
